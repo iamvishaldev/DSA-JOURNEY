@@ -10,7 +10,7 @@ function checkLargestNumber(arr){
    return largest
 }
 
-// let arr = [-5,-4,-1]
+let arr = [-5,-4,-1]
 
 // console.log(checkLargestNumber(arr))
 
