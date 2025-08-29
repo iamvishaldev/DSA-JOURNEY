@@ -1,6 +1,22 @@
-// Q1
+//Q1
 
-// OUTPUT:
+// 1
+// 12
+// 123
+// 1234
+// 12345
+
+let n=5;
+
+for (let i = 1; i <=n; i++) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+        row = row + j
+    }
+    // console.log("row",row)
+}
+
+//Q1
 
 // 1
 // 22
@@ -8,28 +24,11 @@
 // 4444
 // 55555
 
-// Solution:
 
-// for(let i=1;i<=5;i++){
+// for (let i = 1; i <=n; i++) {
 //     let row = "";
-//     for(let j=1;j<=i;j++){
-//         row = row + i
+//     for (let j = 1; j <= i; j++) {
+//         row = row + j + 1;
 //     }
-//     console.log(row)
+//     // console.log("row",row)
 // }
-
-// Q2
-
-// OUTPUT:
-
-// 12345
-// 1234
-// 123
-// 12
-// 1
-
-// Solution:
-
-for(let i=5;i>=1;i--){
-    console.log(i)
-}
